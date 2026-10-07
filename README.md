@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-TradeZone is a fast-growing Nigerian e-commerce platform connecting buyers and sellers across **Lagos, Abuja, Kano, Port Harcourt, and Ibadan**.
+TradeZone is a fast-growing Nigerian e-commerce platform connecting buyers and sellers across Lagos, Abuja, Kano, Port Harcourt, and Ibadan.
 
-As the platform grew between **2023 and 2024**, leadership became concerned that growth was masking underlying business problems, including declining customer retention, seller performance issues, and underperforming product categories.
+As the platform grew between 2023 and 2024, leadership became concerned that growth was masking underlying business problems, including declining customer retention, seller performance issues, and underperforming product categories.
 
-This project was completed as a business-focused SQL analysis to help the **Head of Growth** and **Head of Seller Operations** understand what was happening across the platform ahead of the 2025 planning cycle.
+This project was completed as a business-focused SQL analysis to help the Head of Growth and Head of Seller Operations understand what was happening across the platform ahead of the 2025 planning cycle.
 
 I investigated eight business questions by first cleaning and validating the data, then translated the results into an analyst memo containing findings and recommendations.
 
@@ -87,17 +87,17 @@ I standardised:
 * Date formats
 * Product category names
 
-Dates were standardised to **YYYY-MM-DD**, while product categories were normalised to title case.
+Dates were standardised to YYYY-MM-DD, while product categories were normalised to title case.
 
 ### Data Validation
 
 I also validated the consistency of the data by checking:
 
 * Whether order totals matched the sum of their order items
-* Orders where the difference exceeded **₦10**
-* Review ratings outside the expected **1–5** range
+* Orders where the difference exceeded ₦10
+* Review ratings outside the expected 1–5 range
 * Negative product prices
-* Discount percentages above **100%**
+* Discount percentages above 100%
 
 Any decisions made during the cleaning process were documented in SQL comments.
 
